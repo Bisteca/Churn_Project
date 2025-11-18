@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+sqlalchemy
+flask
+streamlit
+joblib
+python-dotenv
+gunicorn
+
