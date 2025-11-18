@@ -1,6 +1,6 @@
 from flask import request, Flask, jsonify
 import pickle
-from preprocessing import preprocess_input
+from .preprocessing import preprocess_input
 import os
 
 
