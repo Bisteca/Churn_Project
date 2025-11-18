@@ -19,7 +19,7 @@ with open("models/xgb_churn.pkl", "rb") as mod:
 with open("models/feature_columns.pkl", "rb") as f:
     feature_col = pickle.load(f)
     
-url = "https://churn-project-rtwh.onrender.com"
+url = "https://churn-project-rtwh.onrender.com/predict"
 
 st.set_page_config(page_title="Churn Dashboard", layout="wide")
 
